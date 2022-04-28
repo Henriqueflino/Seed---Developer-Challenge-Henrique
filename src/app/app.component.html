@@ -6,12 +6,16 @@
     <div class="input-group md-form form-sm form-2 pl-0">
       <input
         class="form-control my-0 py-2 red-border"
-        type="text"
-        placeholder="Faça aqui sua pesquisa"
-        aria-label="Search"
+        type="search"
+        placeholder="Faça sua pesquisa"
+        id="example-search-input"
       />
-      <div class="input-group-append">
-        <span class="input-group-text rlighten-3" id="basic-text1">
+      <span class="input-group-append">
+        <button
+          class="btn btn-outline-secondary"
+          type="button"
+          (click)="clickEvent()"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -24,50 +28,51 @@
               d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
             />
           </svg>
-        </span>
+        </button>
+      </span>
+    </div>
+  </div>
+  <p class="search-text mt-3">Foram encontrados resultados:</p>
+  <div class="cards">
+    <div class="card sales-oders mt-3">
+      <div class="card-header">Pedidos de Venda</div>
+      <div class="card-body">
+        <p class="card-text">
+          With supporting text below as a natural lead-in to additional content.
+        </p>
       </div>
     </div>
-  </div>
-  <div class="cards">
-  <div class="card sales-oders mt-2">
-    <div class=" card-header">Pedidos de Venda</div>
-    <div class="card-body">
-      <p class="card-text">
-        With supporting text below as a natural lead-in to additional content.
-      </p>
+    <div class="card purchase-orders mt-2">
+      <div class="card-header">Pedidos de Compra</div>
+      <div class="card-body">
+        <p class="card-text">
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+      </div>
     </div>
-  </div>
-  <div class="card purchase-orders mt-2">
-    <div class="card-header">Pedidos de Compra</div>
-    <div class="card-body">
-      <p class="card-text">
-        With supporting text below as a natural lead-in to additional content.
-      </p>
+    <div class="card materials mt-2">
+      <div class="card-header">Produtos</div>
+      <div class="card-body">
+        <p class="card-text">
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+      </div>
     </div>
-  </div>
-  <div class="card materials mt-2">
-    <div class="card-header">Produtos</div>
-    <div class="card-body">
-      <p class="card-text">
-        With supporting text below as a natural lead-in to additional content.
-      </p>
+    <div class="card equipments mt-2">
+      <div class="card-header">Equipamentos</div>
+      <div class="card-body">
+        <p class="card-text">
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+      </div>
     </div>
-  </div>
-  <div class="card equipments mt-2">
-    <div class="card-header">Equipamentos</div>
-    <div class="card-body">
-      <p class="card-text">
-        With supporting text below as a natural lead-in to additional content.
-      </p>
+    <div class="card workforce mt-2">
+      <div class="card-header">Mão de Obra</div>
+      <div class="card-body">
+        <p class="card-text">
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+      </div>
     </div>
-  </div>
-  <div class="card workforce mt-2">
-    <div class="card-header">Mão de Obra</div>
-    <div class="card-body">
-      <p class="card-text">
-        With supporting text below as a natural lead-in to additional content.
-      </p>
-    </div>
-  </div>
   </div>
 </div>
