@@ -2,14 +2,19 @@ p {
   font-family: Lato;
 }
 img {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: auto;
 }
-.form-row {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.search-box {
+  width: 50%;
+  margin: auto;
+}
+.cards {
+  width: 50%;
+  margin: auto;
+}
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
 }
