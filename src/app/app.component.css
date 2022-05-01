@@ -18,3 +18,12 @@ img {
   justify-content: center;
   flex-direction: column;
 }
+.small-text {
+  text-align: left;
+}
+.textcard{
+  width: 50%;
+min-width: 250px;
+display: inline-block;
+vertical-align: le;
+}

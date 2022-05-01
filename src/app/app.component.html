@@ -14,7 +14,7 @@
         <button
           class="btn btn-outline-secondary"
           type="button"
-          (click)="clickEvent()"
+          (click)="Mudarestado('MeusCards')"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -32,14 +32,14 @@
       </span>
     </div>
   </div>
-  <p class="search-text mt-3">Foram encontrados resultados:</p>
-  <div class="cards">
+
+  <div class="cards" id="MeusCards" style="display:none">
+    <p class="search-text mt-3">Foram encontrados resultados:</p>
     <div class="card sales-oders mt-3">
       <div class="card-header">Pedidos de Venda</div>
       <div class="card-body">
-        <p class="card-text">
-          With supporting text below as a natural lead-in to additional content.
-        </p>
+        <p>texto de teste</p>
+        <p>texto de text</p>
       </div>
     </div>
     <div class="card purchase-orders mt-2">
@@ -75,4 +75,5 @@
       </div>
     </div>
   </div>
+ 
 </div>
